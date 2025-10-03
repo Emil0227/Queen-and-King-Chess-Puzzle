@@ -31,10 +31,12 @@ This project was developed as part of my MSc Computer Science coursework at the 
   - Git-based version control with frequent, descriptive commits  
 
 ## Project Structure
+```text
 ├── chess_puzzle.py # Core implementation
 ├── test_chess_puzzle.py # Unit tests
 ├── board_examp.txt # Example board configuration
 └── README.md # Project documentation
+```
 
 ## How to Run
 ```bash
@@ -43,17 +45,22 @@ python chess_puzzle.py
 
 # Run all tests
 pytest test_chess_puzzle.py
+```
 
-## x
+## Example Gameplay
+```
 File name for initial configuration: board_examp.txt
 The initial configuration is:
+
   ♔  
    ♕ 
  ♚  ♛
      
-  ♕  
+  ♕
+
 Next move of White: c3c4
 The configuration after White's move is:
+
    ♔ 
    ♕ 
  ♚  ♛
